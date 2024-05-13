@@ -15,6 +15,7 @@ namespace ProyectoMAUI
 
             InitializeComponent();
 
+
             Grid grid = new Grid
             {
                 RowDefinitions =
@@ -107,8 +108,7 @@ namespace ProyectoMAUI
             grid.Add(boxView);
             grid.Add(label);
 
-            Title = "Grid Pagina 1 Jordan Aguiar";
-            Content = grid;
+
 
 
             Button button = new Button
@@ -131,6 +131,7 @@ namespace ProyectoMAUI
         {
             await Navigation.PushAsync(new PaginaDos());
         }
+
 
 
     }
