@@ -63,10 +63,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="OLA.xaml">
+	  <MauiXaml Update="AbsoluteLayout.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="PaginaDos.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="StackJordan.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
