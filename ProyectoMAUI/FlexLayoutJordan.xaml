@@ -31,7 +31,7 @@
             <BoxView FlexLayout.Basis="50"
                      Color="Green" />
 
-            <Button Text="Mi Botón"
+            <Button Text="AbsoluteLayout"
                     BackgroundColor="Orange"
                     HorizontalOptions="FillAndExpand"
                     VerticalOptions="Center"

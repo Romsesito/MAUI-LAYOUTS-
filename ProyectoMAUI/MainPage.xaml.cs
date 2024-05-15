@@ -111,19 +111,7 @@ namespace ProyectoMAUI
 
 
 
-            Button button = new Button
-            {
-                Text = "Ir a otra página"
-            };
-            button.Clicked += OnButtonClicked;
 
-            Grid.SetRow(button, 2);
-            Grid.SetColumnSpan(button, 2);
-
-            grid.Children.Add(button);
-
-            Title = "Grid Pagina 1 Jordan Aguiar";
-            Content = grid;
         }
 
 

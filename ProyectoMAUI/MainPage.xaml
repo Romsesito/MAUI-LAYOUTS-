@@ -50,11 +50,10 @@
                HorizontalOptions="Center"
                VerticalOptions="Center" />
 
-        <Button Text="Ir a otra página"
-                Grid.Row="2"
-                Grid.ColumnSpan="2"
-                Clicked="OnButtonClicked"
-                HorizontalOptions="Center"
-                VerticalOptions="Center" />
+        <Button Text="StackLayout"
+                    BackgroundColor="DarkRed"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="Center"
+                    Clicked="OnButtonClicked"/>
     </Grid>
     </ContentPage>

@@ -4,22 +4,26 @@
              x:Class="ProyectoMAUI.AbsoluteLayoutJordan"
              Title="AbsoluteLayoutJordan">
     <AbsoluteLayout>
-        <!-- Scrollable content -->
-        <ScrollView AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All">
-            <!-- Add your scrollable content here -->
-            <StackLayout>
-                <!-- Example content, replace with your actual content -->
-                <Label Text="Content goes here" FontSize="24"/>
-                <BoxView Color="LightGray" HeightRequest="1000"/>
-                <!-- To simulate scrolling -->
-            </StackLayout>
-        </ScrollView>
+        <BoxView Color="Blue"
+                 AbsoluteLayout.LayoutBounds="0.5,0,100,25"
+                 AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <BoxView Color="Green"
+                 AbsoluteLayout.LayoutBounds="0,0.5,25,100"
+                 AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <BoxView Color="Red"
+                 AbsoluteLayout.LayoutBounds="1,0.5,25,100"
+                 AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <BoxView Color="Black"
+                 AbsoluteLayout.LayoutBounds="0.5,1,100,25"
+                 AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <Label Text="Centered text"
+               AbsoluteLayout.LayoutBounds="0.5,0.5,110,25"
+               AbsoluteLayout.LayoutFlags="PositionProportional" />
 
-        <!-- Button in the bottom-right corner -->
-        <Button Text="Go to GridLayout" 
-                Clicked="OnButtonClicked"
-                AbsoluteLayout.LayoutBounds="1, 1, AutoSize, AutoSize"
-                AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <Button Text="GRID"
+                    BackgroundColor="GreenYellow"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="Center"
+                    Clicked="OnButtonClicked"/>
     </AbsoluteLayout>
-
 </ContentPage>
