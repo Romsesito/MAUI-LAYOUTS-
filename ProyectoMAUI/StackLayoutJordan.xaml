@@ -17,7 +17,7 @@
         <Label Text="Etiqueta 3" FontSize="Small"/>
         <Button
             x:Name="CounterBtn"
-            Text="Click me" 
+            Text="Flex Layout" 
             SemanticProperties.Hint="Counts the number of times you click"
             Clicked="OnCounterClicked"
             HorizontalOptions="Fill" />

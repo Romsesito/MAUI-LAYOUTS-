@@ -7,7 +7,7 @@ public partial class FlexLayoutJordan : ContentPage
 		InitializeComponent();
 	}
 
-    private async void OnImageTapped(object sender, EventArgs e)
+    private async void OnButtonClicked(object sender, EventArgs e)
     {
         await Navigation.PushAsync(new AbsoluteLayoutJordan());
     }
