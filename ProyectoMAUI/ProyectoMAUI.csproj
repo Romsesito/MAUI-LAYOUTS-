@@ -63,13 +63,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="AbsoluteLayout.xaml">
+	  <MauiXaml Update="AbsoluteLayoutJordan.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="FlexLayoutJordan.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="PaginaDos.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="StackJordan.xaml">
+	  <MauiXaml Update="StackLayoutJordan.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

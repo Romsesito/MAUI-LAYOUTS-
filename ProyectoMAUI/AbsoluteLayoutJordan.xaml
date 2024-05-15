@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoMAUI.AbsoluteLayoutJordan"
+             Title="AbsoluteLayoutJordan">
+    <AbsoluteLayout>
+        <!-- Scrollable content -->
+        <ScrollView AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All">
+            <!-- Add your scrollable content here -->
+            <StackLayout>
+                <!-- Example content, replace with your actual content -->
+                <Label Text="Content goes here" FontSize="24"/>
+                <BoxView Color="LightGray" HeightRequest="1000"/>
+                <!-- To simulate scrolling -->
+            </StackLayout>
+        </ScrollView>
+
+        <!-- Button in the bottom-right corner -->
+        <Button Text="Go to GridLayout" 
+                Clicked="OnButtonClicked"
+                AbsoluteLayout.LayoutBounds="1, 1, AutoSize, AutoSize"
+                AbsoluteLayout.LayoutFlags="PositionProportional"/>
+    </AbsoluteLayout>
+
+</ContentPage>

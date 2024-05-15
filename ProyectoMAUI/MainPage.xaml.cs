@@ -129,7 +129,7 @@ namespace ProyectoMAUI
 
         private async void OnButtonClicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new StackJordan());
+            await Navigation.PushAsync(new StackLayoutJordan());
         }
 
 
